@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\css\\app.a7c7e47b.css",
+      "PackagePath": "staticwebassets\\css\\app.a7c7e47b.css"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\img\\black-aesthetic-mountains-4k-9k.58dbf5a0.jpg",
+      "PackagePath": "staticwebassets\\img\\black-aesthetic-mountains-4k-9k.58dbf5a0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js",
+      "PackagePath": "staticwebassets\\js\\app.2231d474.js"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js.map",
+      "PackagePath": "staticwebassets\\js\\app.2231d474.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js",
+      "PackagePath": "staticwebassets\\js\\chunk-vendors.7452e996.js"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js.map",
+      "PackagePath": "staticwebassets\\js\\chunk-vendors.7452e996.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Ecommerce.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Ecommerce.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Ecommerce.props",
+      "PackagePath": "build\\Ecommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Ecommerce.props",
+      "PackagePath": "buildMultiTargeting\\Ecommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Ecommerce.props",
+      "PackagePath": "buildTransitive\\Ecommerce.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,2505 @@
+{
+  "Version": 1,
+  "Hash": "dVHHpkWOKdkTFTkkOCLGqzhmSXEuvof581m2ewzaPOc=",
+  "Source": "Ecommerce",
+  "BasePath": "_content/Ecommerce",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Ecommerce\\wwwroot",
+      "Source": "Ecommerce",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\20orpprlfe-r8e75ffup4.gz",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "favicon#[.{fingerprint=r8e75ffup4}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\favicon.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yk37zmkkpl",
+      "Integrity": "4mgHj9tcIDg3w+1I32TMBh3LwWdhlt10Otk9z8hy87g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\5yk8gc9hhr-j4yw6hliz8.gz",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "js/chunk-vendors.7452e996.js#[.{fingerprint=j4yw6hliz8}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "eksm124bub",
+      "Integrity": "4tzNlIbGDuikK/oTShf+YTspnMH6QwqHlO3CZ2+Wbhs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\r1zsuvfpfm-o97sw2hw9n.gz",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "css/app.a7c7e47b#[.{fingerprint=o97sw2hw9n}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\css\\app.a7c7e47b.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hl4qjg6ir1",
+      "Integrity": "O1NC0LJxFlClJXn8UAaofILPCUP9BqWMa6XAKk61yLw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\css\\app.a7c7e47b.css"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\s645so6f8v-7ytva9jese.gz",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "js/app.2231d474.js#[.{fingerprint=7ytva9jese}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "cnhtjluziu",
+      "Integrity": "mAVcCniNEEBLW7qDU1rsYT2dRnAIgEc7ARaBN75AxKc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ygv38fyufi-t1t28btf2l.gz",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "js/app.2231d474#[.{fingerprint=t1t28btf2l}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gsqzs2jc7o",
+      "Integrity": "YIY8Sg2GyCptGoieeNfaMaIA+poxV8iGIPM9g2DGESo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\yt15dq9q96-ttatk8whnp.gz",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "js/chunk-vendors.7452e996#[.{fingerprint=ttatk8whnp}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "r92cap8g9s",
+      "Integrity": "gZtnp7SWNCqL3M1eAix8nfQR+qIbk9XSUErklE5/BpU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\zkttbzczs0-qcogfm3c04.gz",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "index#[.{fingerprint=qcogfm3c04}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "si0dowhxbl",
+      "Integrity": "5CuqtVRjE4xXk17M/Nl6BKSqx3qRE2VZNY23C+m4a4I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\css\\app.a7c7e47b.css",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "css/app.a7c7e47b#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o97sw2hw9n",
+      "Integrity": "NHS11M2QIb+vC9LYdFLcZXVsi3dvM9eeJW7F8jYB1vs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\app.a7c7e47b.css"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\favicon.ico",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r8e75ffup4",
+      "Integrity": "23SrC3gzjB93j4OYxF9BA8ma6g6EWjEYp3ULTur9NEU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\img\\black-aesthetic-mountains-4k-9k.58dbf5a0.jpg",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "img/black-aesthetic-mountains-4k-9k.58dbf5a0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yrq8plmm79",
+      "Integrity": "jkYWEph44wkqRfGlNBTuc+ijAbFgBxjOOfgCG2VMAlM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\black-aesthetic-mountains-4k-9k.58dbf5a0.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\index.html",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qcogfm3c04",
+      "Integrity": "SpYe6K1awlReBFMiI7ogylni8qmPDeld0oIsRkfTYVQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "js/app.2231d474#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t1t28btf2l",
+      "Integrity": "kaMEA13djLgq6U3P6jqNS1OMYBlrF6r52fi/UWy3Iqg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\app.2231d474.js"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js.map",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "js/app.2231d474.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7ytva9jese",
+      "Integrity": "X2egR+qzcgl0P9miEWarKjvAunZA8gH+Gz4fPQSnNQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\app.2231d474.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "js/chunk-vendors.7452e996#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ttatk8whnp",
+      "Integrity": "7y/mqFfPxbjR0y3xPhb043A8dlRsaNA8Rxa6PEXOOmQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chunk-vendors.7452e996.js"
+    },
+    {
+      "Identity": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js.map",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "js/chunk-vendors.7452e996.js#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4yw6hliz8",
+      "Integrity": "PRE6eoQ1B/a9yLCuspkIFj1P4GLirHwrlf68QtBkEng=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chunk-vendors.7452e996.js.map"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/app.a7c7e47b.css",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\r1zsuvfpfm-o97sw2hw9n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001119820829"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "892"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O1NC0LJxFlClJXn8UAaofILPCUP9BqWMa6XAKk61yLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NHS11M2QIb+vC9LYdFLcZXVsi3dvM9eeJW7F8jYB1vs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NHS11M2QIb+vC9LYdFLcZXVsi3dvM9eeJW7F8jYB1vs="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.a7c7e47b.css",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\css\\app.a7c7e47b.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NHS11M2QIb+vC9LYdFLcZXVsi3dvM9eeJW7F8jYB1vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NHS11M2QIb+vC9LYdFLcZXVsi3dvM9eeJW7F8jYB1vs="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.a7c7e47b.css.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\r1zsuvfpfm-o97sw2hw9n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O1NC0LJxFlClJXn8UAaofILPCUP9BqWMa6XAKk61yLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O1NC0LJxFlClJXn8UAaofILPCUP9BqWMa6XAKk61yLw="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.a7c7e47b.o97sw2hw9n.css",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\r1zsuvfpfm-o97sw2hw9n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001119820829"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "892"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O1NC0LJxFlClJXn8UAaofILPCUP9BqWMa6XAKk61yLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NHS11M2QIb+vC9LYdFLcZXVsi3dvM9eeJW7F8jYB1vs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o97sw2hw9n"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.a7c7e47b.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NHS11M2QIb+vC9LYdFLcZXVsi3dvM9eeJW7F8jYB1vs="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.a7c7e47b.o97sw2hw9n.css",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\css\\app.a7c7e47b.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NHS11M2QIb+vC9LYdFLcZXVsi3dvM9eeJW7F8jYB1vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o97sw2hw9n"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.a7c7e47b.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NHS11M2QIb+vC9LYdFLcZXVsi3dvM9eeJW7F8jYB1vs="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.a7c7e47b.o97sw2hw9n.css.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\r1zsuvfpfm-o97sw2hw9n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O1NC0LJxFlClJXn8UAaofILPCUP9BqWMa6XAKk61yLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o97sw2hw9n"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.a7c7e47b.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O1NC0LJxFlClJXn8UAaofILPCUP9BqWMa6XAKk61yLw="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\20orpprlfe-r8e75ffup4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001103752759"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "905"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mgHj9tcIDg3w+1I32TMBh3LwWdhlt10Otk9z8hy87g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"23SrC3gzjB93j4OYxF9BA8ma6g6EWjEYp3ULTur9NEU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-23SrC3gzjB93j4OYxF9BA8ma6g6EWjEYp3ULTur9NEU="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"23SrC3gzjB93j4OYxF9BA8ma6g6EWjEYp3ULTur9NEU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-23SrC3gzjB93j4OYxF9BA8ma6g6EWjEYp3ULTur9NEU="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\20orpprlfe-r8e75ffup4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mgHj9tcIDg3w+1I32TMBh3LwWdhlt10Otk9z8hy87g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mgHj9tcIDg3w+1I32TMBh3LwWdhlt10Otk9z8hy87g="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.r8e75ffup4.ico",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\20orpprlfe-r8e75ffup4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001103752759"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "905"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mgHj9tcIDg3w+1I32TMBh3LwWdhlt10Otk9z8hy87g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"23SrC3gzjB93j4OYxF9BA8ma6g6EWjEYp3ULTur9NEU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r8e75ffup4"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-23SrC3gzjB93j4OYxF9BA8ma6g6EWjEYp3ULTur9NEU="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.r8e75ffup4.ico",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"23SrC3gzjB93j4OYxF9BA8ma6g6EWjEYp3ULTur9NEU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r8e75ffup4"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-23SrC3gzjB93j4OYxF9BA8ma6g6EWjEYp3ULTur9NEU="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.r8e75ffup4.ico.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\20orpprlfe-r8e75ffup4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mgHj9tcIDg3w+1I32TMBh3LwWdhlt10Otk9z8hy87g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r8e75ffup4"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mgHj9tcIDg3w+1I32TMBh3LwWdhlt10Otk9z8hy87g="
+        }
+      ]
+    },
+    {
+      "Route": "img/black-aesthetic-mountains-4k-9k.58dbf5a0.jpg",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\img\\black-aesthetic-mountains-4k-9k.58dbf5a0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "942244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jkYWEph44wkqRfGlNBTuc+ijAbFgBxjOOfgCG2VMAlM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jkYWEph44wkqRfGlNBTuc+ijAbFgBxjOOfgCG2VMAlM="
+        }
+      ]
+    },
+    {
+      "Route": "img/black-aesthetic-mountains-4k-9k.58dbf5a0.yrq8plmm79.jpg",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\img\\black-aesthetic-mountains-4k-9k.58dbf5a0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "942244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jkYWEph44wkqRfGlNBTuc+ijAbFgBxjOOfgCG2VMAlM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yrq8plmm79"
+        },
+        {
+          "Name": "label",
+          "Value": "img/black-aesthetic-mountains-4k-9k.58dbf5a0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jkYWEph44wkqRfGlNBTuc+ijAbFgBxjOOfgCG2VMAlM="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\zkttbzczs0-qcogfm3c04.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002398081535"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5CuqtVRjE4xXk17M/Nl6BKSqx3qRE2VZNY23C+m4a4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SpYe6K1awlReBFMiI7ogylni8qmPDeld0oIsRkfTYVQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SpYe6K1awlReBFMiI7ogylni8qmPDeld0oIsRkfTYVQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SpYe6K1awlReBFMiI7ogylni8qmPDeld0oIsRkfTYVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SpYe6K1awlReBFMiI7ogylni8qmPDeld0oIsRkfTYVQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\zkttbzczs0-qcogfm3c04.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5CuqtVRjE4xXk17M/Nl6BKSqx3qRE2VZNY23C+m4a4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5CuqtVRjE4xXk17M/Nl6BKSqx3qRE2VZNY23C+m4a4I="
+        }
+      ]
+    },
+    {
+      "Route": "index.qcogfm3c04.html",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\zkttbzczs0-qcogfm3c04.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002398081535"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5CuqtVRjE4xXk17M/Nl6BKSqx3qRE2VZNY23C+m4a4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SpYe6K1awlReBFMiI7ogylni8qmPDeld0oIsRkfTYVQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qcogfm3c04"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SpYe6K1awlReBFMiI7ogylni8qmPDeld0oIsRkfTYVQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.qcogfm3c04.html",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SpYe6K1awlReBFMiI7ogylni8qmPDeld0oIsRkfTYVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qcogfm3c04"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SpYe6K1awlReBFMiI7ogylni8qmPDeld0oIsRkfTYVQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.qcogfm3c04.html.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\zkttbzczs0-qcogfm3c04.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5CuqtVRjE4xXk17M/Nl6BKSqx3qRE2VZNY23C+m4a4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qcogfm3c04"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5CuqtVRjE4xXk17M/Nl6BKSqx3qRE2VZNY23C+m4a4I="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.2231d474.js",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ygv38fyufi-t1t28btf2l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000746825990"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1338"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YIY8Sg2GyCptGoieeNfaMaIA+poxV8iGIPM9g2DGESo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kaMEA13djLgq6U3P6jqNS1OMYBlrF6r52fi/UWy3Iqg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kaMEA13djLgq6U3P6jqNS1OMYBlrF6r52fi/UWy3Iqg="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.2231d474.js",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kaMEA13djLgq6U3P6jqNS1OMYBlrF6r52fi/UWy3Iqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kaMEA13djLgq6U3P6jqNS1OMYBlrF6r52fi/UWy3Iqg="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.2231d474.js.7ytva9jese.map",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\s645so6f8v-7ytva9jese.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000209424084"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4774"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mAVcCniNEEBLW7qDU1rsYT2dRnAIgEc7ARaBN75AxKc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X2egR+qzcgl0P9miEWarKjvAunZA8gH+Gz4fPQSnNQw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ytva9jese"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.2231d474.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X2egR+qzcgl0P9miEWarKjvAunZA8gH+Gz4fPQSnNQw="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.2231d474.js.7ytva9jese.map",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X2egR+qzcgl0P9miEWarKjvAunZA8gH+Gz4fPQSnNQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ytva9jese"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.2231d474.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X2egR+qzcgl0P9miEWarKjvAunZA8gH+Gz4fPQSnNQw="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.2231d474.js.7ytva9jese.map.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\s645so6f8v-7ytva9jese.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mAVcCniNEEBLW7qDU1rsYT2dRnAIgEc7ARaBN75AxKc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ytva9jese"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.2231d474.js.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mAVcCniNEEBLW7qDU1rsYT2dRnAIgEc7ARaBN75AxKc="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.2231d474.js.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ygv38fyufi-t1t28btf2l.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YIY8Sg2GyCptGoieeNfaMaIA+poxV8iGIPM9g2DGESo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YIY8Sg2GyCptGoieeNfaMaIA+poxV8iGIPM9g2DGESo="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.2231d474.js.map",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\s645so6f8v-7ytva9jese.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000209424084"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4774"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mAVcCniNEEBLW7qDU1rsYT2dRnAIgEc7ARaBN75AxKc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X2egR+qzcgl0P9miEWarKjvAunZA8gH+Gz4fPQSnNQw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X2egR+qzcgl0P9miEWarKjvAunZA8gH+Gz4fPQSnNQw="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.2231d474.js.map",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X2egR+qzcgl0P9miEWarKjvAunZA8gH+Gz4fPQSnNQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X2egR+qzcgl0P9miEWarKjvAunZA8gH+Gz4fPQSnNQw="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.2231d474.js.map.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\s645so6f8v-7ytva9jese.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mAVcCniNEEBLW7qDU1rsYT2dRnAIgEc7ARaBN75AxKc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mAVcCniNEEBLW7qDU1rsYT2dRnAIgEc7ARaBN75AxKc="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.2231d474.t1t28btf2l.js",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ygv38fyufi-t1t28btf2l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000746825990"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1338"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YIY8Sg2GyCptGoieeNfaMaIA+poxV8iGIPM9g2DGESo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kaMEA13djLgq6U3P6jqNS1OMYBlrF6r52fi/UWy3Iqg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t1t28btf2l"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.2231d474.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kaMEA13djLgq6U3P6jqNS1OMYBlrF6r52fi/UWy3Iqg="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.2231d474.t1t28btf2l.js",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kaMEA13djLgq6U3P6jqNS1OMYBlrF6r52fi/UWy3Iqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t1t28btf2l"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.2231d474.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kaMEA13djLgq6U3P6jqNS1OMYBlrF6r52fi/UWy3Iqg="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.2231d474.t1t28btf2l.js.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ygv38fyufi-t1t28btf2l.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YIY8Sg2GyCptGoieeNfaMaIA+poxV8iGIPM9g2DGESo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t1t28btf2l"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.2231d474.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YIY8Sg2GyCptGoieeNfaMaIA+poxV8iGIPM9g2DGESo="
+        }
+      ]
+    },
+    {
+      "Route": "js/chunk-vendors.7452e996.js",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\yt15dq9q96-ttatk8whnp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000029031790"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34444"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZtnp7SWNCqL3M1eAix8nfQR+qIbk9XSUErklE5/BpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7y/mqFfPxbjR0y3xPhb043A8dlRsaNA8Rxa6PEXOOmQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7y/mqFfPxbjR0y3xPhb043A8dlRsaNA8Rxa6PEXOOmQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/chunk-vendors.7452e996.js",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7y/mqFfPxbjR0y3xPhb043A8dlRsaNA8Rxa6PEXOOmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7y/mqFfPxbjR0y3xPhb043A8dlRsaNA8Rxa6PEXOOmQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/chunk-vendors.7452e996.js.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\yt15dq9q96-ttatk8whnp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZtnp7SWNCqL3M1eAix8nfQR+qIbk9XSUErklE5/BpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gZtnp7SWNCqL3M1eAix8nfQR+qIbk9XSUErklE5/BpU="
+        }
+      ]
+    },
+    {
+      "Route": "js/chunk-vendors.7452e996.js.j4yw6hliz8.map",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\5yk8gc9hhr-j4yw6hliz8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000005614287"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178116"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4tzNlIbGDuikK/oTShf+YTspnMH6QwqHlO3CZ2+Wbhs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PRE6eoQ1B/a9yLCuspkIFj1P4GLirHwrlf68QtBkEng=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4yw6hliz8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chunk-vendors.7452e996.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PRE6eoQ1B/a9yLCuspkIFj1P4GLirHwrlf68QtBkEng="
+        }
+      ]
+    },
+    {
+      "Route": "js/chunk-vendors.7452e996.js.j4yw6hliz8.map",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "683186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PRE6eoQ1B/a9yLCuspkIFj1P4GLirHwrlf68QtBkEng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4yw6hliz8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chunk-vendors.7452e996.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PRE6eoQ1B/a9yLCuspkIFj1P4GLirHwrlf68QtBkEng="
+        }
+      ]
+    },
+    {
+      "Route": "js/chunk-vendors.7452e996.js.j4yw6hliz8.map.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\5yk8gc9hhr-j4yw6hliz8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4tzNlIbGDuikK/oTShf+YTspnMH6QwqHlO3CZ2+Wbhs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4yw6hliz8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chunk-vendors.7452e996.js.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4tzNlIbGDuikK/oTShf+YTspnMH6QwqHlO3CZ2+Wbhs="
+        }
+      ]
+    },
+    {
+      "Route": "js/chunk-vendors.7452e996.js.map",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\5yk8gc9hhr-j4yw6hliz8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000005614287"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178116"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4tzNlIbGDuikK/oTShf+YTspnMH6QwqHlO3CZ2+Wbhs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PRE6eoQ1B/a9yLCuspkIFj1P4GLirHwrlf68QtBkEng=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PRE6eoQ1B/a9yLCuspkIFj1P4GLirHwrlf68QtBkEng="
+        }
+      ]
+    },
+    {
+      "Route": "js/chunk-vendors.7452e996.js.map",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "683186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PRE6eoQ1B/a9yLCuspkIFj1P4GLirHwrlf68QtBkEng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PRE6eoQ1B/a9yLCuspkIFj1P4GLirHwrlf68QtBkEng="
+        }
+      ]
+    },
+    {
+      "Route": "js/chunk-vendors.7452e996.js.map.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\5yk8gc9hhr-j4yw6hliz8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4tzNlIbGDuikK/oTShf+YTspnMH6QwqHlO3CZ2+Wbhs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4tzNlIbGDuikK/oTShf+YTspnMH6QwqHlO3CZ2+Wbhs="
+        }
+      ]
+    },
+    {
+      "Route": "js/chunk-vendors.7452e996.ttatk8whnp.js",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\yt15dq9q96-ttatk8whnp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000029031790"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34444"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZtnp7SWNCqL3M1eAix8nfQR+qIbk9XSUErklE5/BpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7y/mqFfPxbjR0y3xPhb043A8dlRsaNA8Rxa6PEXOOmQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ttatk8whnp"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chunk-vendors.7452e996.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7y/mqFfPxbjR0y3xPhb043A8dlRsaNA8Rxa6PEXOOmQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/chunk-vendors.7452e996.ttatk8whnp.js",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7y/mqFfPxbjR0y3xPhb043A8dlRsaNA8Rxa6PEXOOmQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ttatk8whnp"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chunk-vendors.7452e996.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7y/mqFfPxbjR0y3xPhb043A8dlRsaNA8Rxa6PEXOOmQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/chunk-vendors.7452e996.ttatk8whnp.js.gz",
+      "AssetFile": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\yt15dq9q96-ttatk8whnp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gZtnp7SWNCqL3M1eAix8nfQR+qIbk9XSUErklE5/BpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 05:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ttatk8whnp"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chunk-vendors.7452e996.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gZtnp7SWNCqL3M1eAix8nfQR+qIbk9XSUErklE5/BpU="
+        }
+      ]
+    }
+  ]
+}

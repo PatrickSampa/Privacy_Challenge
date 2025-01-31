@@ -11,4 +11,18 @@ export class PaymentsController {
     const payments = await paymentsModel.find();
     return payments;
   }
+
+  async updateIdSessionSocket(
+    idPurchasingProcess: string,
+    idSessionSocket: string
+  ) {
+    const updatedPayment = await paymentsModel.findOne({
+      idPurchasingProcess: idPurchasingProcess,
+    });
+    if (updatedPayment) {
+      updatedPayment.idSessionSocket = idSessionSocket;
+      await updatedPayment.save();
+    }
+    return updatedPayment;
+  }
 }
