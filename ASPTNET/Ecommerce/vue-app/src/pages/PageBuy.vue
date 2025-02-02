@@ -52,11 +52,13 @@
         <button @click="finalizePurchase">Finalizar Compra</button>
       </div>
     </div>
+    <button class="exit-button" @click="CancelBuy">Cancelar</button>
   </div>
 </template>
 
 <script>
 import { PurchaseRequest } from "../Services/PurchaseRoutes";
+import { VerifyIsLogin } from "../Help/VerifyIsLogin";
 
 export default {
   name: "PageBuy",
@@ -106,8 +108,16 @@ export default {
       } catch (error) {
         console.log(error);
       }
+      this.$router.push({ name: "PageMyOrders" });
+    },
+    CancelBuy() {
       this.$router.push({ name: "PageProducts" });
     },
+  },
+  mounted() {
+    if (!VerifyIsLogin()) {
+      this.$router.push({ name: "PageLogin" });
+    }
   },
 };
 </script>
@@ -219,5 +229,23 @@ button {
 
 button:hover {
   background-color: #218838;
+}
+.exit-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.exit-button:hover {
+  background-color: #c82333;
 }
 </style>

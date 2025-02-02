@@ -19,6 +19,7 @@ import CategoryOptionComponent from "../components/Products/CategoryOptionCompon
 import ProductsBoxComponents from "../components/Products/ProductsBoxComponents.vue";
 import { GetProductsByCategory } from "../Services/GetProductsByCategory";
 import { GetCategory } from "../Services/GetCategory";
+import { VerifyIsLogin } from "../Help/VerifyIsLogin";
 
 export default {
   name: "PageProducts",
@@ -34,6 +35,7 @@ export default {
   },
   methods: {
     logout() {
+      localStorage.removeItem("user");
       this.$router.push({ name: "PageLogin" });
     },
     filterProducts(category) {
@@ -55,6 +57,9 @@ export default {
     },
   },
   mounted() {
+    if (!VerifyIsLogin()) {
+      this.$router.push({ name: "PageLogin" });
+    }
     GetCategory().then((response) => {
       this.products = response;
     });

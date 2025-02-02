@@ -23,7 +23,7 @@
         }"
         >{{
           order.paymentCompleted == false
-            ? "Aguardando Pagamento"
+            ? "Processando Pagamento"
             : StatusProcess
         }}</span
       >
@@ -38,6 +38,7 @@
 import { GetProductId } from "../../Services/GetProductId";
 import { GetPurchasingByIdProduct } from "../../Services/GetPurchasingByIdProduct";
 import { CancelPay } from "../../Services/CancelPay";
+import Swal from "sweetalert2";
 
 export default {
   name: "OrdersComponents",
@@ -66,26 +67,43 @@ export default {
     cancelOrder() {
       CancelPay(this.CurrentPurchansing)
         .then(() => {
-          alert("Pedido cancelado com sucesso!");
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Pedido cancelado com sucesso!",
+            showConfirmButton: false,
+            timer: 3000,
+          });
         })
         .catch(() => {
-          alert(
-            "Pagamento já foi realizado. Pedido não pode ser cancelado no momento!"
-          );
+          Swal.fire({
+            position: "top-end",
+            icon: "error",
+            title:
+              "Pedido não pode ser cancelado no momento! Pagamento já foi processado!",
+            showConfirmButton: false,
+            timer: 3000,
+          });
         })
         .finally(() => {
-          window.location.reload();
+          setTimeout(() => {
+            this._GetProductId();
+            window.location.reload();
+          }, 3000);
         });
     },
     ToProducts() {
       this.$router.push({ name: "PageProducts" });
     },
-  },
-  mounted() {
-    if (this.order.id) {
+    _GetProductId() {
       GetProductId(this.order.productId).then((res) => {
         this.nome = res.nome;
       });
+    },
+  },
+  mounted() {
+    if (this.order.id) {
+      this._GetProductId();
       GetPurchasingByIdProduct(this.order.id).then((res) => {
         this.CurrentPurchansing = res;
         this.StatusProcess = res.statusProcess;

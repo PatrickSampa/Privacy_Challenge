@@ -1,8 +1,8 @@
 using System.Text.Json;
-using Ecommerce.Service.MessagePurchansing;
-using Ecommerce.Service.Model;
-using Ecommerce.Service.Persistence;
-using Ecommerce.Service.Persistence.PurchasingProcessPessister;
+using Ecommerce.src.Infrastructure.MessageBus.MessagePurchansing;
+using Ecommerce.src.Infrastructure.Persistence.BuyProductPersister;
+using Ecommerce.src.Infrastructure.Persistence.PurchasingProcessPessister;
+
 
 public class PeriodicTaskService
 {

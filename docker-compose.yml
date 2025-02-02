@@ -1,0 +1,76 @@
+version: "3.8"
+
+services:
+  mongodb:
+    image: mongo:6.0
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=123
+      - MONGO_INITDB_DATABASE=Ecommerce
+    networks:
+      - app-network
+    volumes:
+      - mongodb_data:/data/db
+
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    ports:
+      - 15672:15672
+      - 5672:5672
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    networks:
+      - app-network
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "check_port_connectivity"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: ./ASPTNET/Ecommerce
+      dockerfile: Dockerfile
+    ports:
+      - "5234:5234"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - MongoDB__ConnectionString=mongodb://admin:123@mongodb:27017
+      - MongoDB__DatabaseName=Ecommerce
+      - RabbitMQ__HostName=rabbitmq
+      - RabbitMQ__UserName=guest
+      - RabbitMQ__Password=guest
+    networks:
+      - app-network
+    depends_on:
+      - mongodb
+      - rabbitmq
+
+  api2:
+    build:
+      context: ./node.js
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - AMQP_SERVER=amqp://guest:guest@rabbitmq:5672
+      - QUEUE_NAME=CREATE_PURCHASING_PROCESS
+    networks:
+      - app-network
+    depends_on:
+      rabbitmq:
+        condition: service_healthy 
+    restart: on-failure
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mongodb_data:
+  rabbitmq_data:

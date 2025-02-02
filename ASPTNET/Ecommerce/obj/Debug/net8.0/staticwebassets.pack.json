@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\css\\app.01980d84.css",
+      "PackagePath": "staticwebassets\\css\\app.01980d84.css"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\img\\black-aesthetic-mountains-4k-9k.58dbf5a0.jpg",
+      "PackagePath": "staticwebassets\\img\\black-aesthetic-mountains-4k-9k.58dbf5a0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\img\\game-over-minimalist-ed.cc25a4bc.jpg",
+      "PackagePath": "staticwebassets\\img\\game-over-minimalist-ed.cc25a4bc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\img\\sharedImage.c8117882.jpg",
+      "PackagePath": "staticwebassets\\img\\sharedImage.c8117882.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.232615d3.js",
+      "PackagePath": "staticwebassets\\js\\app.232615d3.js"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.232615d3.js.map",
+      "PackagePath": "staticwebassets\\js\\app.232615d3.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.e22f5e4a.js",
+      "PackagePath": "staticwebassets\\js\\chunk-vendors.e22f5e4a.js"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.e22f5e4a.js.map",
+      "PackagePath": "staticwebassets\\js\\chunk-vendors.e22f5e4a.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Ecommerce.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Ecommerce.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Ecommerce.props",
+      "PackagePath": "build\\Ecommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Ecommerce.props",
+      "PackagePath": "buildMultiTargeting\\Ecommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Ecommerce.props",
+      "PackagePath": "buildTransitive\\Ecommerce.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

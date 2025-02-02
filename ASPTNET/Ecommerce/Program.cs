@@ -1,17 +1,15 @@
-
-using Ecommerce.Service.Persistence;
-using Ecommerce.ConfigDatabase;
-using poc.api.sqlserver.Service.MessageBus;
+using Ecommerce.src.Infrastructure.auth;
+using Ecommerce.src.Infrastructure.ConfigDatabase;
+using Ecommerce.src.Infrastructure.MessageBus;
+using Ecommerce.src.Infrastructure.MessageBus.MessagePurchansing;
+using Ecommerce.src.Infrastructure.Persistence.BuyProductPersister;
+using Ecommerce.src.Infrastructure.Persistence.ProductPersistence;
+using Ecommerce.src.Infrastructure.Persistence.PurchasingProcessPessister;
+using Ecommerce.src.Infrastructure.Persistence.Users;
+using Ecommerce.src.Presentation.Controller;
 using MongoDB.Driver;
-using poc.api.sqlserver.EndPoints;
-using Ecommerce.Controller.Users;
-using Ecommerce.Service.Persistence.Users;
-using Ecommerce.Controller;
-using Ecommerce.Service.Persistence.PurchasingProcessPessister;
-using Ecommerce.Service.MessagePurchansing;
-using Ecommerce.Service.Auth;
-using Ecommerce.src.Controller;
-using Ecommerce.Service.Orchestrator;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
@@ -48,11 +46,12 @@ builder.Services.AddScoped<IBuyProduct, BuyProductService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IPurchasingProcess, PurchasingProcessService>();
 builder.Services.AddSingleton<PeriodicTaskService>();
+builder.Services.AddSingleton<InsertObjectsDB>();
 builder.Services.AddScoped<IUser, UserService>();
 builder.Services.AddScoped<IMessageBusService, MessageBusService>();
 builder.Services.AddScoped<ICreatePurchansingProcess, CreatePurchansingProcess>();
 builder.Services.AddScoped<IAuthentification, Authentification>();
-builder.Services.AddScoped<IPurchaseOrchestrator, PurchaseOrchestrator>();
+
 
 
 
@@ -60,8 +59,10 @@ var app = builder.Build();
 
 
 var periodicTaskService = app.Services.GetRequiredService<PeriodicTaskService>();
+var insertObjectsDB = app.Services.GetRequiredService<InsertObjectsDB>();
 var timer = new System.Timers.Timer(5000);
 timer.Elapsed += async (sender, e) => await periodicTaskService.ExecuteTask();
+await insertObjectsDB.ExecuteTask();
 timer.AutoReset = true;
 timer.Enabled = true;
 app.UseCors("AllowAnyOrigin");

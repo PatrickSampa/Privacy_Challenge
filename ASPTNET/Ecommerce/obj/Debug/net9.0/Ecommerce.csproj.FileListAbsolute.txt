@@ -126,9 +126,9 @@ C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\D
 C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\Ecommerce.pdb
 C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\Ecommerce.genruntimeconfig.cache
 C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\ref\Ecommerce.dll
-C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\compressed\iayp4if0ph-s8m8bawy69.gz
-C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\compressed\a97owm8yyk-fu6hxh79ar.gz
-C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\compressed\o66ygzrz8l-lnt1x2ljym.gz
-C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\compressed\zkttbzczs0-4vkk4yfpf5.gz
-C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\compressed\3g583vvz0e-n2rcpddyif.gz
-C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\compressed\t99s80tqel-4id525nr7l.gz
+C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\compressed\hpxlu6aucd-kxlufw658d.gz
+C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\compressed\4d9d4mop1t-lscavls49z.gz
+C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\compressed\cfh46uui5q-j5tfyisb90.gz
+C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\compressed\zkttbzczs0-l2zu5ujr9n.gz
+C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\compressed\tj3tmdf01u-khv0rctu3j.gz
+C:\Users\sampa\OneDrive\Área de Trabalho\vagaDeTrabalho\ASPTNET\Ecommerce\obj\Debug\net9.0\compressed\v9p0pic4yb-ne26odkgh5.gz

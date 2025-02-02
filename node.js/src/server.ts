@@ -1,4 +1,3 @@
-import mongoose from "mongoose";
 import { app } from "./app";
 import dotenv from "dotenv";
 import { rabbitmqClient } from "./Infraestructure/Message-broker/rabbitmqClient";
