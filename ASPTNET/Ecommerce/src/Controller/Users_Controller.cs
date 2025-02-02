@@ -19,8 +19,16 @@ public static class Users_Controller
     app.MapPost("/api/users", async (IUser _service, ILogger<Program> logger, User user) =>
     {
       logger.LogInformation("Criando usuário - MongoDB...");
-      var newUser = await _service.Post(user);
-      return TypedResults.Created($"/api/users/{newUser.Id}", newUser);
+      try
+      {
+        var newUser = await _service.Post(user);
+        return TypedResults.Created($"/api/users/{newUser.Id}", newUser) as IResult;
+      }
+      catch (Exception ex)
+      {
+        logger.LogError(ex.Message);
+        return TypedResults.BadRequest(ex.Message) as IResult;
+      }
     });
 
     app.MapPut("/api/users/{id}", async (IUser _service, ILogger<Program> logger, string id, User user) =>
@@ -35,5 +43,6 @@ public static class Users_Controller
       var deletedUser = await _service.Delete(id);
       return TypedResults.NoContent();
     });
+
   }
 }

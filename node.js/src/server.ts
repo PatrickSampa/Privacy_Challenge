@@ -1,24 +1,22 @@
-import { connection } from "mongoose";
+import mongoose from "mongoose";
 import { app } from "./app";
 import dotenv from "dotenv";
-import { ProcessPaymentChannel } from "./messages/ProcessPaymentChannel";
+import { rabbitmqClient } from "./Infraestructure/Message-broker/rabbitmqClient";
 
 const createServer = async () => {
   dotenv.config();
   const PORT = process.env.API_PORT;
-  const server = app.listen(PORT, () =>
-    console.log(`API is running on PORT ${PORT}`)
-  );
 
-  const processPaymentChannel = new ProcessPaymentChannel(server);
-  await processPaymentChannel.consumeMessages();
-  await processPaymentChannel.emitAllPayments();
+  try {
+    const server = app.listen(PORT, () =>
+      console.log(`🚀 API está rodando na porta ${PORT}`)
+    );
 
-  process.on("SIGINT", async () => {
-    await connection.close();
-    server.close();
-    console.log("Closing server...");
-  });
+    const processPaymentChannel = new rabbitmqClient();
+    await processPaymentChannel.consumeMessages();
+  } catch (error) {
+    console.error("❌ Erro :", error);
+  }
 };
 
 createServer();

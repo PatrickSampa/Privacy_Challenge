@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\css\\app.a7c7e47b.css",
-      "PackagePath": "staticwebassets\\css\\app.a7c7e47b.css"
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\css\\app.f52f4c16.css",
+      "PackagePath": "staticwebassets\\css\\app.f52f4c16.css"
     },
     {
       "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\favicon.ico",
@@ -13,24 +13,32 @@
       "PackagePath": "staticwebassets\\img\\black-aesthetic-mountains-4k-9k.58dbf5a0.jpg"
     },
     {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\img\\game-over-minimalist-ed.cc25a4bc.jpg",
+      "PackagePath": "staticwebassets\\img\\game-over-minimalist-ed.cc25a4bc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\img\\sharedImage.c8117882.jpg",
+      "PackagePath": "staticwebassets\\img\\sharedImage.c8117882.jpg"
+    },
+    {
       "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js",
-      "PackagePath": "staticwebassets\\js\\app.2231d474.js"
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.61343e3f.js",
+      "PackagePath": "staticwebassets\\js\\app.61343e3f.js"
     },
     {
-      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.2231d474.js.map",
-      "PackagePath": "staticwebassets\\js\\app.2231d474.js.map"
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\app.61343e3f.js.map",
+      "PackagePath": "staticwebassets\\js\\app.61343e3f.js.map"
     },
     {
-      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js",
-      "PackagePath": "staticwebassets\\js\\chunk-vendors.7452e996.js"
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.8142c755.js",
+      "PackagePath": "staticwebassets\\js\\chunk-vendors.8142c755.js"
     },
     {
-      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.7452e996.js.map",
-      "PackagePath": "staticwebassets\\js\\chunk-vendors.7452e996.js.map"
+      "Id": "C:\\Users\\sampa\\OneDrive\\Área de Trabalho\\vagaDeTrabalho\\ASPTNET\\Ecommerce\\wwwroot\\js\\chunk-vendors.8142c755.js.map",
+      "PackagePath": "staticwebassets\\js\\chunk-vendors.8142c755.js.map"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Ecommerce.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

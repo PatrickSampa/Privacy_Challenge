@@ -4,7 +4,6 @@ public class Product
 {
   public string Id { get; set; } = Guid.NewGuid().ToString();
 
-  public string UserId { get; set; } = string.Empty;
   public string Nome { get; set; } = string.Empty;
   public decimal Preco { get; set; }
 
@@ -14,7 +13,4 @@ public class Product
 
   public int Quantidade { get; set; }
 
-  public DateTime DataCadastro { get; set; }
-
-  public DateTime DataUpdate { get; set; }
 }

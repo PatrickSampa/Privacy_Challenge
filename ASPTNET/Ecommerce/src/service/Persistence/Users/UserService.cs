@@ -16,9 +16,12 @@ public class UserService : IUser
 
   public async Task<User> Post(User entity)
   {
+    var user = await _db.GetCollection<User>("users").Find(x => x.Email == entity.Email).FirstOrDefaultAsync();
+    if (user is not null) throw new Exception("user already exists");
     await _db.GetCollection<User>("users").InsertOneAsync(entity);
     return entity;
   }
+
 
   public async Task<User> GetUserById(string id)
    => await _db.GetCollection<User>("users").Find(x => x.Id == id).FirstOrDefaultAsync();

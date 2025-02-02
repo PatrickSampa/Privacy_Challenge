@@ -51,4 +51,15 @@ public class ProductService : IProductService
 
     return entity;
   }
+
+  public async Task<List<Product>> GetByCategory(string category)
+      => await _db.GetCollection<Product>("products").Find(x => x.Categoria == category).ToListAsync();
+
+  public async Task<List<Product>> PostAll(List<Product> entity)
+  {
+    await _db.GetCollection<Product>("products").InsertManyAsync(entity);
+
+    return entity;
+  }
+
 }

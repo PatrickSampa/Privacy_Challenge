@@ -1,15 +1,12 @@
 <template>
-  <PageLogin />
+  <router-view></router-view>
 </template>
 
 <script>
-import PageLogin from './pages/PageLogin.vue'
 
 export default {
   name: 'App',
-  components: {
-    PageLogin
-  }
+
 }
 </script>
 

@@ -1,5 +1,6 @@
 namespace Ecommerce.Service.Model;
 
+
 public class BuyProductModel
 {
   public string Id { get; set; } = Guid.NewGuid().ToString();

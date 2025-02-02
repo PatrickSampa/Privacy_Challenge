@@ -10,98 +10,86 @@ public static class ProdutosEndpoints
   {
     app.MapGet("/api/produto", async (IProductService _service, ILogger<Program> logger) =>
     {
-      logger.LogInformation("Buscando produtos - SQL Server...");
+
 
       var produto = await _service.Get();
       if (produto is null)
       {
-        logger.LogWarning("Nenhum produto encontrado - SQL Server");
+
         return Results.NotFound();
       }
 
-      logger.LogInformation("Produtos encontrados - SQL Server: {ProdutoCount}", produto.Count());
+
       return TypedResults.Ok(produto);
-    })
-    .WithName("BuscarProdutos")
-    .WithOpenApi(x => new OpenApiOperation(x)
-    {
-      Summary = "Buscar produtos",
-      Description = "Buscar produtos",
-      Tags = new List<OpenApiTag> { new OpenApiTag { Name = "Minha Loja" } }
     });
 
-    app.MapGet("/api/produto/{id}", async (string id, IProductService _service, ILogger<Program> logger) =>
+    app.MapGet("/api/produto/id", async (HttpRequest request, IProductService _service, ILogger<Program> logger) =>
     {
-      logger.LogInformation("Buscando produtos - SQL Server...");
+      var id = request.Query["id"].ToString();
+
 
       var produto = await _service.Get(id);
       if (produto is null)
       {
-        logger.LogWarning("Nenhum produto encontrado - SQL Server");
+
         return Results.NotFound();
       }
 
-      logger.LogInformation("Produtos encontrados - SQL Server: {produto}", produto);
+
       return Results.Ok(produto);
-    })
-    .WithName("BuscarProdutoId")
-    .WithOpenApi(x => new OpenApiOperation(x)
-    {
-      Summary = "Buscar produto pelo id",
-      Description = "Buscar produto pelo id",
-      Tags = new List<OpenApiTag> { new OpenApiTag { Name = "Minha Loja" } }
     });
+
 
     app.MapPost("/api/produto", async (Product entity, IProductService _service, ILogger<Program> logger) =>
     {
-      logger.LogInformation("Cadastro de produtos - SQL Server...");
+
       if (entity is null)
       {
-        logger.LogWarning("Objeto Vazio - SQL Server");
+
         return Results.NotFound();
       }
-      logger.LogInformation("Produto Cadastrado - SQL Server: {entity}", entity);
+
       return Results.Created($"{entity.Id}", await _service.Post(entity));
-    })
-    .WithName("CadastrarProduto")
-    .WithOpenApi(x => new OpenApiOperation(x)
-    {
-      Summary = "Cadastrar produto",
-      Description = "Cadastrar produto",
-      Tags = new List<OpenApiTag> { new OpenApiTag { Name = "Minha Loja" } }
     });
 
     app.MapPut("/api/produto", async (Product entity, IProductService _service, ILogger<Program> logger) =>
     {
-      logger.LogInformation("Alterar produtos - SQL Server...");
+
       if (entity is null)
       {
-        logger.LogWarning("Objeto Vazio - SQL Server");
+
         return Results.NotFound();
       }
-      logger.LogInformation("Produto alterado - SQL Server: {entity}", entity);
+
       return Results.Ok(await _service.Put(entity));
-    })
-    .WithName("EditarProduto")
-    .WithOpenApi(x => new OpenApiOperation(x)
-    {
-      Summary = "Editar produto",
-      Description = "Editar produto",
-      Tags = new List<OpenApiTag> { new OpenApiTag { Name = "Minha Loja" } }
     });
+
 
     app.MapDelete("/api/produto/{id}", async (string id, IProductService _service, ILogger<Program> logger) =>
     {
       var produto = await _service.Delete(id);
-      logger.LogInformation($"Produto id={id} deletado - SQL Server");
+
       return Results.Ok($"Produto id={id} deletado");
-    })
-    .WithName("DeletarProduto")
-    .WithOpenApi(x => new OpenApiOperation(x)
+    });
+
+    app.MapGet("/api/produto/getByCategory", async (HttpRequest request, IProductService _service, ILogger<Program> logger) =>
     {
-      Summary = "Deletar produto",
-      Description = "Deletar produto",
-      Tags = new List<OpenApiTag> { new OpenApiTag { Name = "Minha Loja" } }
+      var category = request.Query["category"];
+
+      if (string.IsNullOrEmpty(category))
+      {
+        return Results.BadRequest("Category is required");
+      }
+
+      var produtos = await _service.GetByCategory(category);
+      return Results.Ok(produtos);
+    });
+
+
+    app.MapPost("/api/produto/insertAll", async (List<Product> entity, IProductService _service, ILogger<Program> logger) =>
+    {
+      var produtos = await _service.PostAll(entity);
+      return Results.Ok(produtos);
     });
   }
 }

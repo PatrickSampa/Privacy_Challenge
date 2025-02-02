@@ -1,6 +1,7 @@
 using Ecommerce.Service.Model;
 using Ecommerce.Service.Persistence;
 
+
 namespace Ecommerce.Controller;
 
 public static class BuyProduct_Controller
@@ -19,6 +20,13 @@ public static class BuyProduct_Controller
       }
 
       return Results.Created($"{entity.Id}", await _service.Post(entity));
+    });
+
+    app.MapGet("/api/buy/all", async (HttpRequest request, IBuyProduct _service, ILogger<Program> logger) =>
+    {
+      var id = request.Query["id"].ToString();
+      logger.LogInformation("Compra de produto - SQL Server...");
+      return Results.Ok(await _service.GetAll(id));
     });
   }
 

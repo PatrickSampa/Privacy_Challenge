@@ -30,7 +30,7 @@ public class MessageBusService : IMessageBusService
           _logger.LogInformation("Canal criado. Preparando para declarar a fila.");
           await channel.QueueDeclareAsync(
               queue: queue,
-              durable: false,
+              durable: true,
               exclusive: false,
               autoDelete: false,
               arguments: null);

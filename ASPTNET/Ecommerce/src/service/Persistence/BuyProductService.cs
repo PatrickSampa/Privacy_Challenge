@@ -2,6 +2,7 @@ using Ecommerce.ConfigDatabase;
 using Ecommerce.Service.Model;
 using Ecommerce.Service.Persistence.PurchasingProcessPessister;
 
+using MongoDB.Driver;
 namespace Ecommerce.Service.Persistence;
 
 
@@ -16,6 +17,14 @@ public class BuyProductService : IBuyProduct
     _db = db;
     _purchasingProcess = purchasingProcessParam;
     _productService = productService;
+  }
+
+  public async Task<List<BuyProductModel>> GetAll(string id)
+  => await _db.GetCollection<BuyProductModel>("buyProduct").Find(x => x.UserId == id).ToListAsync();
+
+  public async Task<BuyProductModel> GetById(string id)
+  {
+    return await _db.GetCollection<BuyProductModel>("buyProduct").Find(x => x.Id == id).FirstOrDefaultAsync();
   }
 
   public async Task<BuyProductModel> Post(BuyProductModel entity)
@@ -35,7 +44,7 @@ public class BuyProductService : IBuyProduct
 
       await _db.GetCollection<BuyProductModel>("buyProduct").InsertOneAsync(entity);
 
-      var newEntity = new PurchasingProcess(entity.UserId, entity.ProductId);
+      var newEntity = new PurchasingProcess(entity.UserId, entity.Id);
 
 
       await _purchasingProcess.Post(newEntity);
@@ -47,4 +56,12 @@ public class BuyProductService : IBuyProduct
 
     return entity;
   }
+
+  public async Task<BuyProductModel> Update(BuyProductModel entity)
+  {
+
+    await _db.GetCollection<BuyProductModel>("buyProduct").ReplaceOneAsync(x => x.Id == entity.Id, entity);
+    return entity;
+  }
 }
+

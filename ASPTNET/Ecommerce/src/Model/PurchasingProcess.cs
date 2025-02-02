@@ -22,9 +22,13 @@ public class PurchasingProcess
     Id = Guid.NewGuid().ToString();
     UserId = _userId;
     IdBuyProduct = _idBuyProduct;
-    StatusProcess = "Pending";
+    StatusProcess = "waitingInLine";
     DataCadastro = DateTime.UtcNow;
     DataUpdate = DateTime.UtcNow;
   }
+  public PurchasingProcess()
+  {
+  }
+
 
 }

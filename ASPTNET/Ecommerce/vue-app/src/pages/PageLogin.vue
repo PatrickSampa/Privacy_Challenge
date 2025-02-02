@@ -4,34 +4,56 @@
       <form action="">
       <h1>Login</h1>
       <div class="input-box">
-        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email" v-model="email">
         <i class='bx bxs-user'></i>
       </div>
       <div class="input-box">
-        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Password" v-model="password">
         <i class='bx bxs-lock-alt'></i>
       </div>
+
       <div class="remember-forget">
         <label for="">
           <input type="checkbox">Remember me
         </label>
         <a href="#">Forgot Password</a>
       </div>
-      <button type="submit" class="btn">Login</button>
+      <button type="button" class="btn" @click="login">Login</button>
       <div class="register-link">
-        <p>Don't have an account? <a href="/register">Register</a></p>
+        <p>Don't have an account? <router-link :to="{name: 'PageRegister'}">Register</router-link></p>
       </div>
+      <p v-if="errorMessage" class="error-message">{{ errorMessage }}</p>
     </form>
 </div>
   </div>
 </template>
 
 <script>
-
+import { LoginRequest } from '../Services/LoginRequest';
 
 
 export default {
-  name: 'PageLogin'
+  name: 'PageLogin',
+  data() {
+    return {
+      email: '',
+      password: '',
+      errorMessage: ''
+    }
+  },
+  methods: {
+    login() {
+      if(this.email.length > 0 && this.password.length > 0){
+        LoginRequest(this.email, this.password).then((response) => {
+          localStorage.setItem('user', JSON.stringify(response));
+          this.$router.push({ name: 'PageProducts' });
+        }).catch((error) => {
+          this.errorMessage = error.message;
+          console.log(error.message);
+        });
+      }
+    }
+  }
 }
 </script>
 
@@ -152,5 +174,10 @@ export default {
   text-decoration: underline;
 }
 
+.error-message {
+  color: #d9534f;
+  font-size: 14px;
+  text-align: center;
+}
 </style>
 

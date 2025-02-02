@@ -4,33 +4,53 @@
       <form action="">
         <h1>Register</h1>
         <div class="input-box">
-          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Name" v-model="name">
           <i class='bx bxs-user'></i>
         </div>
         <div class="input-box">
-          <input type="email" placeholder="Email">
+          <input type="email" placeholder="Email" v-model="email">
           <i class='bx bxs-envelope'></i>
         </div>
         <div class="input-box">
-          <input type="password" placeholder="Password">
+          <input type="password" placeholder="Password" v-model="password">
           <i class='bx bxs-lock-alt'></i>
         </div>
-        <button type="submit" class="btn">Register</button>
+        <button type="button" class="btn" @click="register">Register</button>
         <div class="login-link">
-          <p>Already have an account? <a href="#">Login</a></p>
+          <p>Already have an account? <router-link :to="{name: 'PageLogin'}">Login</router-link></p>
         </div>
+        <p v-if="errorMessage" class="error-message">{{ errorMessage }}</p>
       </form>
     </div>
   </div>
 </template>
 
 <script>
-
+import { RegisterRequest } from '../Services/RegisterRequest';
 
 export default {
-  name: 'PageRegister'
+  name: 'PageRegister',
+  data() {
+    return {
+      name: '',
+      email: '',
+      password: '',
+      errorMessage: ''
+    }
+  },
+  methods: {
+    register() {
+      RegisterRequest(this.name, this.email, this.password).then(() => {
+        this.$router.push({ name: 'PageLogin' });
+      }).catch((error) => {
+        this.errorMessage = error.message;
+      });
+
+    }
+  }
 }
 </script>
+
 
 <style scoped>
 .wrapper-register {
@@ -125,5 +145,11 @@ export default {
 
 .login-link p a:hover {
   text-decoration: underline;
+}
+
+.error-message {
+  color: #d9534f;
+  font-size: 14px;
+  text-align: center;
 }
 </style>

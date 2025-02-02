@@ -9,4 +9,10 @@ public interface IProductService
   Task<Product> Post(Product entity);
   Task<Product> Put(Product entity);
   Task<Product> Delete(string id);
+
+  Task<List<Product>> PostAll(List<Product> entity);
+
+  Task<List<Product>> GetByCategory(string category);
+
+
 }

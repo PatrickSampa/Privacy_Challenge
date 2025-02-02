@@ -9,9 +9,20 @@ using Ecommerce.Service.Persistence.Users;
 using Ecommerce.Controller;
 using Ecommerce.Service.Persistence.PurchasingProcessPessister;
 using Ecommerce.Service.MessagePurchansing;
-
+using Ecommerce.Service.Auth;
+using Ecommerce.src.Controller;
+using Ecommerce.Service.Orchestrator;
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+  options.AddPolicy("AllowAnyOrigin", builder =>
+  {
+    builder.AllowAnyOrigin()
+           .AllowAnyHeader()
+           .AllowAnyMethod();
+  });
+});
 
 builder.Services.AddControllers();
 
@@ -40,7 +51,8 @@ builder.Services.AddSingleton<PeriodicTaskService>();
 builder.Services.AddScoped<IUser, UserService>();
 builder.Services.AddScoped<IMessageBusService, MessageBusService>();
 builder.Services.AddScoped<ICreatePurchansingProcess, CreatePurchansingProcess>();
-
+builder.Services.AddScoped<IAuthentification, Authentification>();
+builder.Services.AddScoped<IPurchaseOrchestrator, PurchaseOrchestrator>();
 
 
 
@@ -52,7 +64,7 @@ var timer = new System.Timers.Timer(5000);
 timer.Elapsed += async (sender, e) => await periodicTaskService.ExecuteTask();
 timer.AutoReset = true;
 timer.Enabled = true;
-
+app.UseCors("AllowAnyOrigin");
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
@@ -60,6 +72,8 @@ app.UseRouting();
 app.RegisterProdutosEndpoints();
 app.RegisterUsersEndpoints();
 app.RegisterBuyProductEndpoints();
+app.RegisterAuthentificationEndpoints();
+app.RegisterPurchasingEndPoint();
 app.UseAuthorization();
 
 app.MapControllers();
