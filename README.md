@@ -74,18 +74,20 @@ Senha: admin
 ## 🛠️ Stack Tecnológica
 
 ### Backend
+
 - **.NET Core**: API principal e gerenciamento de produtos
 - **Node.js**: Processamento de pagamentos
 - **MongoDB**: Banco de dados NoSQL
 - **RabbitMQ**: Sistema de mensageria
 
 ### Frontend
+
 - **Vue.js**: Interface web para interação do usuário
 
 ### DevOps
+
 - **Docker**: Containerização
 - **Docker Compose**: Orquestração de containers
-
 
 ## 📝 Notas Importantes
 
@@ -94,9 +96,14 @@ Senha: admin
 - Cancelamentos só são possíveis durante o processamento
 - Atualização de status requer refresh da página (F5)
 
-
 ## 🔍 Monitoramento
 
 - RabbitMQ Management UI: http://localhost:15672
   - Usuário: guest
   - Senha: guest
+
+
+## 🕹️ ROTA DE ACESSO AO FRONTEND
+
+- http://localhost:5234/
+
