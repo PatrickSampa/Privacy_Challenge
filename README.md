@@ -68,8 +68,14 @@ O projeto utiliza uma arquitetura distribuída com as seguintes camadas:
 
 ## 👤 Usuário para Testes
 
-Email: admin@gmail.com
-Senha: admin
+ - Email: admin@gmail.com
+ - Senha: admin
+
+
+## 🕹️ ROTA DE ACESSO AO FRONTEND
+
+- http://localhost:5234/
+
 
 ## 🛠️ Stack Tecnológica
 
@@ -103,7 +109,4 @@ Senha: admin
   - Senha: guest
 
 
-## 🕹️ ROTA DE ACESSO AO FRONTEND
-
-- http://localhost:5234/
 
