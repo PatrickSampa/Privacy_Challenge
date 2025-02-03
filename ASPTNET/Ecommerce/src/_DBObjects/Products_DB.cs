@@ -68,7 +68,7 @@ public class Products_DB
             Nome = "Xbox Series X",
             Preco = 499.99M,
             Descricao = "O console mais poderoso da Microsoft, capaz de rodar jogos em 4K com até 120 FPS.",
-            Categoria = "Games",
+            Categoria = "Consoles",
             Quantidade = 10
         },
         new Product
@@ -77,7 +77,7 @@ public class Products_DB
             Nome = "PlayStation 5",
             Preco = 499.99M,
             Descricao = "Console next-gen da Sony com tecnologia de SSD ultrarrápido e controle DualSense inovador.",
-            Categoria = "Games",
+            Categoria = "Consoles",
             Quantidade = 8
         },
         new Product
@@ -86,7 +86,7 @@ public class Products_DB
             Nome = "Nintendo Switch OLED",
             Preco = 349.99M,
             Descricao = "Versão atualizada do Nintendo Switch com tela OLED de 7 polegadas e cores mais vibrantes.",
-            Categoria = "Games",
+            Categoria = "Consoles",
             Quantidade = 15
         }
     };

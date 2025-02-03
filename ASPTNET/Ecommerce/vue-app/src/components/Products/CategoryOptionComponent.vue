@@ -17,7 +17,7 @@ export default {
       selectedOption: 'Todos',
       categories: [
         { name: 'Todos' },
-        { name: 'Games' },
+        { name: 'Consoles' },
         { name: 'Jogos' }
       ]
     };
